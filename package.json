@@ -1,0 +1,27 @@
+{
+  "name": "gethugo",
+  "version": "1.0.0",
+  "description": "Bash Script to load Hugo locally in a project",
+  "main": "index.js",
+  "scripts": {
+    "hugo": "bin/hugo version && bin/hugo serve --gc --disableFastRender ",
+    "gethugo": "bash get-hugo.sh",
+    "build": "NODE_ENV=production bin/hugo --gc --minify",
+    "deploy": "yarn build",
+    "start": "yarn hugo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theNewDynamic/gethugo.git"
+  },
+  "author": "budparr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theNewDynamic/gethugo/issues"
+  },
+  "homepage": "https://github.com/theNewDynamic/gethugo#readme",
+  "hugo": {
+    "version": "0.63.1",
+    "extended": "true"
+  }
+}
