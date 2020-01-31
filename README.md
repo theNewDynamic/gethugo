@@ -5,7 +5,7 @@ Bash Script to load Hugo locally in a project
 ## To Use
 
 To Use
- - Add get-hugo.sh to the root of your repo
+ - Add the `get-hugo.sh` file to the root of your repo
  - add the following to your package.json file:
  ```
  "hugo": {
