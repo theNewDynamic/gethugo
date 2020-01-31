@@ -2,6 +2,8 @@
 
 Bash Script to load Hugo locally in a project
 
+
+
 ## To Use
 
 To Use
@@ -23,5 +25,6 @@ Extended is optional. The script will use the extended version of Hugo unless `"
 
 - [ ] Clean up (can maybe be less verbose)
 - [ ] Fail better if Hugo is not in package.json at all.
+- [ ] Maybe use a different method than requiring node to get package.json (what we have is simple though)
 - [ ] If Hugo version (package.json.hugo.version) not present in package.json get the latest Hugo version.
 - [ ] Make a CLI
