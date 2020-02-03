@@ -1,5 +1,5 @@
 #!/bin/bash
-DIR=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
+DIR=${PWD}
 #Required to be SET. TODO: Test for this, and if version is not present load from present. Use something like https://zwbetz.com/script-to-install-latest-hugo-release-on-linux-and-mac/
 HUGO_VERSION=$(node -p "require('./package.json').hugo.version")
 HUGO_TYPE=$(node -p "require('./package.json').hugo.extended")
