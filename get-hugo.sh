@@ -7,9 +7,10 @@ FILE=hugo_${HUGO_VERSION}
 
 set -e
 
-if [ -n $HUGO_VERSION ]; then
+if [ $HUGO_VERSION != 'undefined' ]; then
     echo Installing $HUGO_VERSION
 else
+    echo Missing Hugo Version
     exit
 fi
 
