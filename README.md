@@ -20,6 +20,11 @@ Extended is optional. The script will use the extended version of Hugo unless `"
 
 - Run `bash get-hugo.sh` or add `"gethugo": "bash get-hugo.sh",` to your package.json and run it from there.
 
+- Without package.json use positional parameter as the version:
+```
+bash get-hugo.sh 0.63.1
+```
+
 ## To Do
 
 
